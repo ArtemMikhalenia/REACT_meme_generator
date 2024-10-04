@@ -1,0 +1,38 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 20px 30px;
+
+  background: linear-gradient(90.00deg, rgb(103, 34, 128) 1.182%,rgb(166, 38, 211) 100%);
+}
+
+.header-title{
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+
+  color: rgb(255, 255, 255);
+
+}
+
+.header-text{
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  text-align: right;
+
+  color: rgb(255, 255, 255);
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav img{
+  margin-right: 7px;
+}
