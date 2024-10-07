@@ -13,7 +13,7 @@ export default function Generator() {
 							type="text"
 							name="top-text"
 							id="top-text"
-							className="top-text-input"
+							className="top-text-input form-input"
 						/>
 					</div>
 					<div className="bottom-text-container">
@@ -24,7 +24,7 @@ export default function Generator() {
 							type="text"
 							name="bottom-text"
 							id="bottom-text"
-							className="bottom-text-input"
+							className="bottom-text-input form-input"
 						/>
 					</div>
 				</div>
