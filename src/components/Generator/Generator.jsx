@@ -6,15 +6,33 @@ export default function Generator() {
 			<form action="#" className="form-generator">
 				<div className="text-container">
 					<div className="top-text-container">
-						<label htmlFor="top-text">Top text</label>
-						<input type="text" name="top-text" id="top-text" />
+						<label htmlFor="top-text" className="top-text-label">
+							Top text
+						</label>
+						<input
+							type="text"
+							name="top-text"
+							id="top-text"
+							className="top-text-input"
+						/>
 					</div>
 					<div className="bottom-text-container">
-						<label htmlFor="bottom-text">Bottom text</label>
-						<input type="text" name="bottom-text" id="bottom-text" />
+						<label htmlFor="bottom-text" className="bottom-text-label">
+							Bottom text
+						</label>
+						<input
+							type="text"
+							name="bottom-text"
+							id="bottom-text"
+							className="bottom-text-input"
+						/>
 					</div>
 				</div>
-				<input type="submit" value="Get a new meme image" />
+				<input
+					className="form-button"
+					type="button"
+					value="Get a new meme image"
+				/>
 			</form>
 		</div>
 	);
